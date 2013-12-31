@@ -1,7 +1,11 @@
-Welcome to your Appcelerator Titanium Mobile Project
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+In this app we have shown index page with title as Calendar and three menus are shown on the footer of the page. Clicking "inbox" menu will open a new window with title as Settings and a button "Done" on the top right hand side. 
+
+Clicking done button will close the Settings window and Calendar window appears again.
+
+Alloy's MVC architecture is used. 2 controllers are created with names index and add. Similar files with names also gets created automatically in views and styles folder. 
+
+2 views are there in app. index.xml for showing Calendar view and add.xml for showing settings view. Events of Click are added on controllers.
 
 
 
