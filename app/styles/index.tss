@@ -1,0 +1,65 @@
+"#todoWin": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#header": {
+	top: Alloy.Globals.top,
+	height: "50dp",
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#ffffcc", offset: 0.0 },
+			{ color: "#ffffcc", offset: 1.0 }
+		]
+	}
+}
+
+"#title": {
+	left: "10dp",
+	top : "25dp",
+	color: "#000",
+	width: "100%",
+	textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: '16dp',
+		fontWeight: 'bold'
+	}
+}
+
+"#footer": {
+	bottom: 0,
+	height: '46dp',
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#ffffcc", offset: 0.0 },
+			{ color: "#ffffcc", offset: 1.0 }
+		]
+	}
+}
+
+"#today" : {
+	textAlign : 'left',
+	left : '5dp'
+}
+
+"#calendar" : {
+	textAlign : 'center',
+}
+
+"#inbox" : {
+	textAlign : 'right',
+	right : '5dp'
+}
+
+".tabbar" : {
+	color : 'red',
+	width : "100%"
+}

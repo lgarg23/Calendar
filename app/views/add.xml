@@ -1,0 +1,11 @@
+<Alloy>
+  <!-- Main Window -->
+  <Window id="addWin" title="Todo" platform="android,ios">
+
+    <!-- header -->
+    <View id="header">
+      <Label id="title">Settings</Label>
+      <Button class="button" id = "inboxBtn">Done</Button>
+    </View>
+  </Window>
+</Alloy>

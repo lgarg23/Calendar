@@ -1,0 +1,16 @@
+<Alloy>
+  <!-- Main Window -->
+  <Window id="todoWin" title="Todo" platform="android,ios">
+
+    <!-- header -->
+    <View id="header">
+      <Label id="title">Calendar</Label>
+    </View>
+
+    <View platform="ios" id="footer">
+          <Label id = "today" class = "tabbar">Today</Label>
+          <Label id = "calendar" class="tabbar">Calendar</Label>
+          <Label id = "inbox" class = "tabbar">Inbox</Label>
+    </View>
+  </Window>
+</Alloy>
